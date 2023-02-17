@@ -1,0 +1,48 @@
+.main{
+    flex-direction: column;
+    background: none;
+    color: #000;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.logo .icon,
+.logo .text{
+    color: #000;
+}
+.navigation ul li a{
+    justify-content: center;
+    align-items: center;
+}
+.navigation ul li a .icon,
+.navigation ul li a .text{
+    color: #000;
+}
+.navigation ul li a:hover .icon,
+.navigation ul li.active a .icon{
+    color: #fff;
+}
+.indicator{
+    margin-top: 23px;
+    background: #000;
+}
+.indicator::before{
+    display: none;
+}
+.indicator::after{
+    display: none;
+}
+.navigation ul{
+    margin: 23px 0px; 
+}
+.btn{
+    margin-top: 20px;
+}
+.btn .icon
+{
+    color: #000;
+}
+.btn .text{
+    font-size: 1em;
+    color: #000;
+}
